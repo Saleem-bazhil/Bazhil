@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us - Rajeswari Vedachalam Government Arts College</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="rvg.css">
+</head>
+
+<body>
+<header class="bg-info text-center py-3">
+  <h3 class="text-white">Contact Us</h3>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav mx-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+      <li class="nav-item"><a class="nav-link" href="courses.html">Courses</a></li>
+      <li class="nav-item"><a class="nav-link" href="departments.html">Departments</a></li>
+      <li class="nav-item"><a class="nav-link" href="iqac.html">IQAC</a></li>
+      <li class="nav-item"><a class="nav-link" href="naac.html">NAAC</a></li>
+      <li class="nav-item"><a class="nav-link" href="rti.html">RTI</a></li>
+      <li class="nav-item"><a class="nav-link" href="response.html">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container my-5">
+  <h2 class="text-center mb-4">We'd love to hear from you!</h2>
+
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form action="submit_form.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" class="form-control" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-block">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+<footer class="bg-info text-center py-3 text-white">
+  <p>@All Rights Reserved 2022 | Rajeswari Vedachalam Government Arts College</p>
+</footer>

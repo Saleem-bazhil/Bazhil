@@ -1,0 +1,52 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-image: url(/storage/emulated/0/Pictures/HD-wallpaper-light-blue-lines-background-blue-waves-background-creative-blue-backgrounds-lines-backgrounds.jpg);
+}
+header{
+  background-color: lightskyblue;
+  padding: 10px;
+}
+header h3{
+  text-align: center;
+}
+nav{
+  background-color: lightsteelblue;
+  padding: 10px;
+  text-align: center;
+}
+nav li{
+  display: flex;
+  display: inline-block;
+  padding: 10px 0 0 0;
+  margin-left: 40px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+article img{
+  height:350px;
+  width: 100%;
+}
+.one{
+  margin: 25px;
+  background-color:lightsteelblue;
+  border-radius: 10px;
+}
+.one h2{
+  margin-left:15px;
+  color:grey;
+}
+p{
+  font-size: 20px;
+  margin-left: 60px;
+  padding: 10px;
+}
+footer{
+  text-align: center;
+  background-color:lightskyblue;
+  padding: 5px;
+}
